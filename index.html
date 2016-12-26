@@ -1,0 +1,871 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Govihar a Travel Agency Category Flat bootstrap Responsive website Template | Home :: w3layouts</title>
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Govihar Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //Custom Theme files -->
+<!-- <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all"> -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<link type="text/css" rel="stylesheet" href="css/JFFormStyle-1.css" />
+<!-- js -->
+<!--<script src="js/jquery.min.js"></script>-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+ 
+<script src="js/modernizr.custom.js"></script>
+<!-- //js -->
+<!-- fonts -->
+<link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,700,500italic,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!-- //fonts -->
+
+<script type="text/javascript">
+		$(document).ready(function () {
+			$('#horizontalTab').easyResponsiveTabs({
+				type: 'default', //Types: default, vertical, accordion           
+				width: 'auto', //auto or any width like 600px
+				fit: true   // 100% fit in a container
+			});
+		});
+	</script>
+<!---strat-date-piker---->
+<script>
+	$(function() {
+		$( "#datepicker,#datepicker1,#datepicker2" ).datepicker();
+	});
+</script>
+</head>
+<body>
+	<!--header-->
+	<div class="header">
+		<div class="container">
+			<div class="header-grids">
+				<div class="logo">
+					<h1><a  href="index.html"><span><img src="images/logo1.png" alt=""></a></h1>
+					
+				</div>
+				<!--navbar-header-->
+				<div class="header-dropdown">
+					<div class="emergency-grid">
+						<ul>
+							<li><img src="images/whatsapp1.png" alt=""> &amp; <img src="images/phone.png" alt=""> </li> 
+							<li class="call">+1 234 567 8901</li>
+							
+						</ul>   
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="nav-top">
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//header-->
+	<!-- banner -->
+	<div class="banner">
+		<!-- container -->
+		<div class="container">
+			<div class="col-md-4 banner-left">
+				<section class="slider2">
+					<div class="flexslider">
+						<ul class="slides">
+							<li>
+								<div class="slider-info">
+									<img src="images/1.jpg" alt="">
+								</div>
+							</li>
+							<li>
+								<div class="slider-info">
+									<img src="images/2.jpg" alt="">
+								</div>
+							</li>
+							<li>	
+								<div class="slider-info">
+									<img src="images/3.jpg" alt="">
+								</div>
+							</li>
+							<li>	
+								<div class="slider-info">
+									<img src="images/4.jpg" alt="">
+								</div>
+							</li>
+							<li>	
+								<div class="slider-info">
+									<img src="images/2.jpg" alt="">
+								</div>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<!--FlexSlider-->
+			</div>
+			<div class="col-md-8 banner-right">
+				<div class="sap_tabs">	
+					<div class="booking-info">
+						<h2>Book Domestic & International Flight Tickets</h2>
+					</div>
+					 <div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+						  <ul class="resp-tabs-list">
+							  <li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>ALLER-RETOUR</span></li>
+							  <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>ALLER SIMPLE</span></li>
+							  <div class="clearfix"></div>
+						  </ul>		
+						  <!---->		  	 
+						 <div class="resp-tabs-container">
+							<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
+									<div class="facts">
+										<div class="booking-form">
+											
+											<div class="online_reservation">
+													<div class="b_room">
+														<div class="booking_room">
+																<div class="col-md-12">
+																	<form>
+																		<div class="form-group ">
+																		<label for="exampleSelect1">ville depart </label>
+																			<div class="input-group">
+																				<div class="input-group-addon">
+																					<span> <img src="images/airplane.png"></span> 
+																				</div>
+																				<div class="input_container">
+																					<input class="form-control" type="text"  name="email"  placeholder="Enter email" id="country_id" onkeyup="autocomplet()">
+																					<ul id="country_list_id"></ul>
+																				</div>
+																				
+																		
+																		<!--	<input class="form-control" id="email" name="email" type="text" placeholder="Enter email"/> -->
+																			</div>
+																	    </div>
+																		<div class="form-group ">
+																		<label for="exampleSelect1">ville arriveee</label>
+																			<div class="input-group">
+																				<div class="input-group-addon">
+																					<span> <img src="images/landing.png"></span> 
+																				</div>
+																				<div class="input_container">
+																					<input class="form-control" type="text"  name="email"  placeholder="Enter email" id="country_id1" onkeyup="autocomplet1()">
+																					<ul id="country_list_id1"></ul>
+																				</div>
+																				<!--<input class="form-control" id="email" name="email" type="text" placeholder="Enter email"/>-->
+																			</div>
+																	    </div>
+																		<!-- Date Depart Arrive-->
+																		<div class='col-md-4'>
+																			<div class="form-group">
+																			<label for="exampleSelect1">Example select</label>
+																				<div class='input-group date' id='datetimepicker6'>
+																				<span class="input-group-addon">
+																						<span class="glyphicon glyphicon-calendar"></span>
+																					</span>
+																					<!--<input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text"/>-->
+																					<input class="form-control date" id="datepicker" type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '2/04/2015';}" required=>
+																					
+																				</div>
+																			</div>
+																		</div>
+																		<div class='col-md-4'>
+																		<label for="exampleSelect1">Example select</label>
+																			<div class="form-group">
+																				<div class='input-group date' id='datetimepicker7'>
+																				<span class="input-group-addon">
+																						<span class="glyphicon glyphicon-calendar"></span>
+																					</span>
+																					<input class="form-control date" id="datepicker1" type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '2/04/2015';}" required=>
+																					
+																				</div>
+																			</div>
+																		</div>
+																		<!-- Class Voyage -->
+																		<div class='col-md-4'>
+																			<div class="form-group">
+																			<label for="exampleSelect1">Example select</label>
+																				<div class='input-group date' id='datetimepicker7'>
+																				<span class="input-group-addon">
+																						<span> <img src="images/chair.png"></span> 
+																					</span>
+																					<select class="form-control" id="exampleSelect1">
+																					  <option>Econo</option>
+																					  <option>Premier</option>
+																					  
+																					</select>
+																					
+																				</div>
+																			</div>
+																		</div>
+																		<!-- Voyageur -->
+																		<div class='col-md-4'>
+																			<div class="form-group">
+																			<label for="exampleSelect1">Adulte</label>
+																				<div class='input-group date' id='datetimepicker6'>
+																				<span class="input-group-addon">
+																						<span class="glyphicon glyphicon-user"></span>
+																					</span>
+																					<select class="form-control" id="exampleSelect1">
+																						  <option>1 Adulte</option>
+																						  <option>2 Adultes</option>
+																						  <option>3 Adultes</option>
+																						  <option>4 Adultes</option>
+																						  <option>5 Adultes</option>
+																						</select>
+																					
+																				</div>
+																			</div>
+																		</div>
+																		<div class='col-md-4'>
+																			<div class="form-group">
+																			<label for="exampleSelect1">Enfants (1-17 ans)</label>
+																				<div class='input-group date' id='datetimepicker7'>
+																				<span class="input-group-addon">
+																						<span> <img src="images/kids.png"></span> 
+																					</span>
+																						<select class="form-control" id="exampleSelect1">
+																						  <option>1 Enfant</option>
+																						  <option>2 Enfants</option>
+																						  <option>3 Enfants</option>
+																						  <option>4 Enfants</option>
+																						  <option>5 Enfants</option>
+																						</select>
+																				</div>
+																			</div>
+																		</div>
+																		
+																		<div class='col-md-4'>
+																			<div class="form-group">
+																			<label for="exampleSelect1">Bebe (0-2 Ans)</label>
+																				<div class='input-group date' id='datetimepicker7'>
+																				<span class="input-group-addon">
+																						<span> <img src="images/baby.png"></span> 
+																					</span>
+																					<select class="form-control" id="exampleSelect1">
+																					  <option>1 Bebe</option>
+																					  <option>2 Bebes</option>
+																					  <option>3 Bebes</option>
+																					  <option>4 Bebes</option>
+																					  <option>5 Bebes</option>
+																					</select>
+																				</div>
+																			</div>
+																		</div>
+																		<button class="btn btn-lg btn-success col-xs-12">
+																			<span class="glyphicon glyphicon-search pull-left"></span> RECHERCHER
+																		</button>
+																	</form>
+																</div>
+																
+														</div>
+														<div class="clearfix"></div>
+													</div>
+											</div>
+											<!---->
+										</div>	
+									</div>
+							</div>		
+							<div class="tab-2 resp-tab-content" aria-labelledby="tab_item-1">
+								<div class="facts">
+										<div class="booking-form">
+											<!---strat-date-piker---->
+											<link rel="stylesheet" href="css/jquery-ui.css" />
+											
+
+											<!---/End-date-piker---->
+											<div class="online_reservation">
+													<div class="b_room">
+														<div class="booking_room">
+															<div class="col-md-12">
+																	<form>
+																		<div class="form-group ">
+																		<label for="exampleSelect1">Example select</label>
+																			<div class="input-group">
+																				<div class="input-group-addon">
+																					<span> <img src="images/airplane.png"></span> 
+																				</div>
+																				<div class="input_container">
+																					<input class="form-control" type="text"  name="email"  placeholder="Enter email" id="country_id2" onkeyup="autocomplet()">
+																					<ul id="country_list_id2"></ul>
+																				</div>
+																			</div>
+																	    </div>
+																		<div class="form-group ">
+																		<label for="exampleSelect1">Example select</label>
+																			<div class="input-group">
+																				<div class="input-group-addon">
+																					<span> <img src="images/landing.png"></span> 
+																				</div>
+																				<div class="input_container">
+																					<input class="form-control" type="text"  name="email"  placeholder="Enter email" id="country_id3" onkeyup="autocomplet()">
+																					<ul id="country_list_id3"></ul>
+																				</div>
+																			</div>
+																	    </div>
+																		<!-- Date Depart Arrive-->
+																		<div class='col-md-4'>
+																			<div class="form-group">
+																			<label for="exampleSelect1">Example select</label>
+																				<div class='input-group date' id='datetimepicker6'>
+																				<span class="input-group-addon">
+																						<span class="glyphicon glyphicon-calendar"></span>
+																					</span>
+																					<input class="form-control date" id="datepicker2" type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '2/04/2015';}" required=>
+																					
+																				</div>
+																			</div>
+																		</div>
+																		<!-- Class Voyage -->
+																		<div class='col-md-4'>
+																			<div class="form-group">
+																			<label for="exampleSelect1">Example select</label>
+																				<div class='input-group date' id='datetimepicker7'>
+																				<span class="input-group-addon">
+																						<span> <img src="images/chair.png"></span> 
+																					</span>
+																					<select class="form-control" id="exampleSelect1">
+																					  <option>Econo</option>
+																					  <option>Premier</option>
+																					  
+																					</select>
+																					
+																				</div>
+																			</div>
+																		</div>
+																		<div class='col-md-4'>
+																			<div class="form-group">
+																			<label for="exampleSelect1">Example select</label>
+																				<div class='input-group date' id='datetimepicker6'>
+																				<span class="input-group-addon">
+																						<span class="glyphicon glyphicon-calendar"></span>
+																					</span>
+																					<input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text"/ disabled>
+																					
+																				</div>
+																			</div>
+																		</div>
+																		
+																		<!-- Voyageur -->
+																		<div class='col-md-4'>
+																			<div class="form-group">
+																			<label for="exampleSelect1">Adulte</label>
+																				<div class='input-group date' id='datetimepicker6'>
+																				<span class="input-group-addon">
+																						<span class="glyphicon glyphicon-user"></span>
+																					</span>
+																					<select class="form-control" id="exampleSelect1">
+																						  <option>1 Adulte</option>
+																						  <option>2 Adultes</option>
+																						  <option>3 Adultes</option>
+																						  <option>4 Adultes</option>
+																						  <option>5 Adultes</option>
+																						</select>
+																					
+																				</div>
+																			</div>
+																		</div>
+																		<div class='col-md-4'>
+																			<div class="form-group">
+																			<label for="exampleSelect1">Enfants (1-17 ans)</label>
+																				<div class='input-group date' id='datetimepicker7'>
+																				<span class="input-group-addon">
+																						<span> <img src="images/kids.png"></span> 
+																					</span>
+																						<select class="form-control" id="exampleSelect1">
+																						  <option>1 Enfant</option>
+																						  <option>2 Enfants</option>
+																						  <option>3 Enfants</option>
+																						  <option>4 Enfants</option>
+																						  <option>5 Enfants</option>
+																						</select>
+																				</div>
+																			</div>
+																		</div>
+																		
+																		<div class='col-md-4'>
+																			<div class="form-group">
+																			<label for="exampleSelect1">Bebe (0-2 Ans)</label>
+																				<div class='input-group date' id='datetimepicker7'>
+																				<span class="input-group-addon">
+																						<span> <img src="images/baby.png"></span> 
+																					</span>
+																					<select class="form-control" id="exampleSelect1">
+																					  <option>1 Bebe</option>
+																					  <option>2 Bebes</option>
+																					  <option>3 Bebes</option>
+																					  <option>4 Bebes</option>
+																					  <option>5 Bebes</option>
+																					</select>
+																				</div>
+																			</div>
+																		</div>
+																		<button class="btn btn-lg btn-success col-xs-12">
+																			<span class="glyphicon glyphicon-search pull-left"></span> RECHERCHER
+																		</button>
+																	</form>
+																</div>
+														</div>
+														<div class="clearfix"></div>
+													</div>
+											</div>
+											<!---->
+										</div>	
+								</div>
+							</div> 			        					            	      
+						  </div>	
+					  </div>	
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+		<!-- //container -->
+	</div>
+	<!-- //banner -->
+	<div class="move-text">
+		<div class="marquee">let us search for you.<a href="signup.html">Here</a></div>
+		<script type="text/javascript" src="js/jquery.marquee.min.js"></script>
+        <script>
+		  $('.marquee').marquee({ pauseOnHover: true });
+		  //@ sourceURL=pen.js
+		</script>
+	</div>
+	<!-- banner-bottom -->
+	<div class="banner-bottom">
+		<!-- container -->
+		<div class="container">
+			<div class="banner-bottom-info">
+				<h3>Today's Top Deals</h3>
+			</div>
+			<div class="banner-bottom-grids">
+				<div class="col-md-4 banner-bottom-grid">
+					<div class="destinations">
+						 <div class="banner-bottom-middle">
+						<a href="products.html">
+							<img src="images/a2.jpg" alt="" />
+							<div class="destinations-grid-info tours">
+								<h5>Book your next Malaysia holiday!</h5>
+								<p>Integer eget aliquam nibh. Donec blandit volutpat libero id lacinia</p>
+								<p class="b-period">Book Period: Now - 7 September 2015 | Travel Period: Now - 31 October 2015 </p>
+							</div>
+						</a>
+					</div>
+						 
+					</div>
+					<div class="choose">
+						<div class="top-destinations-grids">
+						<div class="top-destinations-info">
+							<h4>Top Destinations Africa</h4>
+						</div>
+						<div class="top-destinations-bottom">
+							<div class="td-grids">
+								<div class="col-xs-3 td-left">
+									<img src="images/t1.jpg" alt="" />
+								</div>
+								<div class="col-xs-7 td-middle">
+									<a href="products.html">Donec libero id lacinia</a>
+									<p>Dapibus eu purus vel libero in nunc</p>
+									<span class="glyphicon glyphicon-star" aria-hidden="true"></span> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+								</div>
+								<div class="col-xs-2 td-right">
+									<p>$190</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="td-grids">
+								<div class="col-xs-3 td-left">
+									<img src="images/t2.jpg" alt="" />
+								</div>
+								<div class="col-xs-7 td-middle">
+									<a href="products.html">Donec libero id lacinia</a>
+									<p>Dapibus eu purus vel libero in nunc</p>
+									<span class="glyphicon glyphicon-star" aria-hidden="true"></span> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+								</div>
+								<div class="col-xs-2 td-right">
+									<p>$213</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="td-grids">
+								<div class="col-xs-3 td-left">
+									<img src="images/t3.jpg" alt="" />
+								</div>
+								<div class="col-xs-7 td-middle">
+									<a href="products.html">Donec libero id lacinia</a>
+									<p>Dapibus eu purus vel libero in nunc</p>
+									<span class="glyphicon glyphicon-star" aria-hidden="true"></span> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+								</div>
+								<div class="col-xs-2 td-right">
+									<p>$176</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="td-grids">
+								<div class="col-xs-3 td-left">
+									<img src="images/t4.jpg" alt="" />
+								</div>
+								<div class="col-xs-7 td-middle">
+									<a href="products.html">Donec libero id lacinia</a>
+									<p>Dapibus eu purus vel libero in nunc</p>
+									<span class="glyphicon glyphicon-star" aria-hidden="true"></span> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+								</div>
+								<div class="col-xs-2 td-right">
+									<p>$490</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+					</div>
+				</div>
+				<div class="col-md-4 banner-bottom-grid">
+					<div class="banner-bottom-middle">
+						<a href="products.html">
+							<img src="images/a5.jpg" alt="" />
+							<div class="destinations-grid-info tours">
+								<h5>Book your next Malaysia holiday!</h5>
+								<p>Integer eget aliquam nibh. Donec blandit volutpat libero id lacinia</p>
+								<p class="b-period">Book Period: Now - 7 September 2015 | Travel Period: Now - 31 October 2015 </p>
+							</div>
+						</a>
+					</div>
+					<div class="top-destinations-grids">
+						<div class="top-destinations-info">
+							<h4>Top Destinations Europa</h4>
+						</div>
+						<div class="top-destinations-bottom">
+							<div class="td-grids">
+								<div class="col-xs-3 td-left">
+									<img src="images/t1.jpg" alt="" />
+								</div>
+								<div class="col-xs-7 td-middle">
+									<a href="products.html">Donec libero id lacinia</a>
+									<p>Dapibus eu purus vel libero in nunc</p>
+									<span class="glyphicon glyphicon-star" aria-hidden="true"></span> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+								</div>
+								<div class="col-xs-2 td-right">
+									<p>$190</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="td-grids">
+								<div class="col-xs-3 td-left">
+									<img src="images/t2.jpg" alt="" />
+								</div>
+								<div class="col-xs-7 td-middle">
+									<a href="products.html">Donec libero id lacinia</a>
+									<p>Dapibus eu purus vel libero in nunc</p>
+									<span class="glyphicon glyphicon-star" aria-hidden="true"></span> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+								</div>
+								<div class="col-xs-2 td-right">
+									<p>$213</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="td-grids">
+								<div class="col-xs-3 td-left">
+									<img src="images/t3.jpg" alt="" />
+								</div>
+								<div class="col-xs-7 td-middle">
+									<a href="products.html">Donec libero id lacinia</a>
+									<p>Dapibus eu purus vel libero in nunc</p>
+									<span class="glyphicon glyphicon-star" aria-hidden="true"></span> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+								</div>
+								<div class="col-xs-2 td-right">
+									<p>$176</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="td-grids">
+								<div class="col-xs-3 td-left">
+									<img src="images/t4.jpg" alt="" />
+								</div>
+								<div class="col-xs-7 td-middle">
+									<a href="products.html">Donec libero id lacinia</a>
+									<p>Dapibus eu purus vel libero in nunc</p>
+									<span class="glyphicon glyphicon-star" aria-hidden="true"></span> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+								</div>
+								<div class="col-xs-2 td-right">
+									<p>$490</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 banner-bottom-grid">
+					<div class="destinations">
+						 <div class="banner-bottom-middle">
+						<a href="products.html">
+							<img src="images/a2.jpg" alt="" />
+							<div class="destinations-grid-info tours">
+								<h5>Book your next Malaysia holiday!</h5>
+								<p>Integer eget aliquam nibh. Donec blandit volutpat libero id lacinia</p>
+								<p class="b-period">Book Period: Now - 7 September 2015 | Travel Period: Now - 31 October 2015 </p>
+							</div>
+						</a>
+					</div>
+						 
+					</div>
+					<div class="news-grids">
+						<div class="top-destinations-grids">
+						<div class="top-destinations-info">
+							<h4>Top Destinations Asia & America</h4>
+						</div>
+						<div class="top-destinations-bottom">
+							<div class="td-grids">
+								<div class="col-xs-3 td-left">
+									<img src="images/t1.jpg" alt="" />
+								</div>
+								<div class="col-xs-7 td-middle">
+									<a href="products.html">Donec libero id lacinia</a>
+									<p>Dapibus eu purus vel libero in nunc</p>
+									<span class="glyphicon glyphicon-star" aria-hidden="true"></span> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+								</div>
+								<div class="col-xs-2 td-right">
+									<p>$190</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="td-grids">
+								<div class="col-xs-3 td-left">
+									<img src="images/t2.jpg" alt="" />
+								</div>
+								<div class="col-xs-7 td-middle">
+									<a href="products.html">Donec libero id lacinia</a>
+									<p>Dapibus eu purus vel libero in nunc</p>
+									<span class="glyphicon glyphicon-star" aria-hidden="true"></span> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+								</div>
+								<div class="col-xs-2 td-right">
+									<p>$213</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="td-grids">
+								<div class="col-xs-3 td-left">
+									<img src="images/t3.jpg" alt="" />
+								</div>
+								<div class="col-xs-7 td-middle">
+									<a href="products.html">Donec libero id lacinia</a>
+									<p>Dapibus eu purus vel libero in nunc</p>
+									<span class="glyphicon glyphicon-star" aria-hidden="true"></span> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+								</div>
+								<div class="col-xs-2 td-right">
+									<p>$176</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="td-grids">
+								<div class="col-xs-3 td-left">
+									<img src="images/t4.jpg" alt="" />
+								</div>
+								<div class="col-xs-7 td-middle">
+									<a href="products.html">Donec libero id lacinia</a>
+									<p>Dapibus eu purus vel libero in nunc</p>
+									<span class="glyphicon glyphicon-star" aria-hidden="true"></span> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+								</div>
+								<div class="col-xs-2 td-right">
+									<p>$490</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<!-- //container -->
+	</div>
+	<!-- //banner-bottom -->
+	<!-- popular-grids -->
+	<div class="popular-grids">
+		<!-- container -->
+		<div class="container">
+			<div class="popular-info">
+				<h3>Popular Places</h3>
+			</div>
+			<!-- slider -->
+			<div class="slider">
+				<div class="arrival-grids">			 
+					 <ul id="flexiselDemo1">
+						 <li>
+							 <a href="products.html"><img src="images/q3.png" alt=""/>
+							 </a>
+						 </li>
+						 <li>
+							 <a href="products.html"><img src="images/q2.png" alt=""/>
+							 </a>
+						 </li>
+						 <li>
+							 <a href="products.html"><img src="images/q4.png" alt=""/>
+							 </a>
+						 </li>
+						 <li>
+							 <a href="products.html"><img src="images/q1.png" alt=""/>
+							 </a>
+						 </li>
+						  <li>
+							 <a href="products.html"><img src="images/q5.png" alt=""/>
+							 </a>
+						 </li>
+						 <li>
+							 <a href="products.html"><img src="images/q6.png" alt=""/>
+							 </a>
+						 </li>
+						  <li>
+							 <a href="products.html"><img src="images/q7.png" alt=""/>
+							 </a>
+						 </li>
+						</ul>
+						<script type="text/javascript">
+						 $(window).load(function() {			
+						  $("#flexiselDemo1").flexisel({
+							visibleItems: 4,
+							animationSpeed: 1000,
+							autoPlay: true,
+							autoPlaySpeed: 3000,    		
+							pauseOnHover:true,
+							enableResponsiveBreakpoints: true,
+							responsiveBreakpoints: { 
+								portrait: { 
+									changePoint:480,
+									visibleItems: 1
+								}, 
+								landscape: { 
+									changePoint:640,
+									visibleItems: 2
+								},
+								tablet: { 
+									changePoint:768,
+									visibleItems: 3
+								}
+							}
+						});
+						});
+						</script>
+						<script type="text/javascript" src="js/jquery.flexisel.js"></script>			 
+				</div>
+			</div>
+			<!-- //slider -->
+		</div>
+		<!-- //container -->
+	</div>
+	<!-- popular-grids -->
+	<!-- footer -->
+	<div class="footer">
+		<!-- container -->
+		<div class="container">
+			<div class="footer-top-grids">
+				<div class="footer-grids">
+					<div class="col-md-3 footer-grid">
+						<h4>Our Products</h4>
+						<ul>
+							<li><a href="index.html">Flight Schedule</a></li>
+							<li><a href="flights-hotels.html">City Airline Routes</a></li>
+							<li><a href="index.html">International Flights</a></li>
+							<li><a href="hotels.html">International Hotels</a></li>
+							<li><a href="bus.html">Bus Booking</a></li>
+							<li><a href="index.html">Domestic Airlines</a></li>
+							<li><a href="holidays.html">Holidays Trip</a></li>
+							<li><a href="hotels.html">Hotel Booking</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 footer-grid">
+						<h4>Company</h4>
+						<ul>
+							<li><a href="about.html">About Us</a></li>
+							<li><a href="faqs.html">FAQs</a></li>
+							<li><a href="terms.html">Terms &amp; Conditions</a></li>
+							<li><a href="privacy.html">Privacy </a></li>
+							<li><a href="contact.html">Contact Us</a></li>
+							<li><a href="#">Careers</a></li>
+							<li><a href="blog.html">Blog</a></li>
+							<li><a href="booking.html">Feedback</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 footer-grid">
+						<h4>Travel Resources</h4>
+						<ul>
+							<li><a href="holidays.html">Holidays Packages</a></li>
+							<li><a href="weekend.html">Weekend Getaways</a></li>
+							<li><a href="index.html">International Airports</a></li>
+							<li><a href="index.html">Domestic Flights Booking</a></li>
+							<li><a href="booking.html">Customer Support</a></li>
+							<li><a href="booking.html">Cancel Bookings</a></li>
+							
+						</ul>
+					</div>
+					<div class="col-md-3 footer-grid">
+						<h4>More Links</h4>
+						<ul class="chf_footer_list">
+							<li><a href="#">Flights Discount Coupons</a></li>
+							<li><a href="#">Domestic Airlines</a></li>
+							<li><a href="#">Indigo Airlines</a></li>
+							<li><a href="#">Air Asia</a></li>
+							<li><a href="#">Jet Airways</a></li>
+							<li><a href="#">SpiceJet</a></li>
+							
+						</ul>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<!-- news-letter -->
+				<div class="news-letter">
+					<div class="news-letter-grids">
+						<div class="col-md-4 news-letter-grid">
+							<p>Toll Free No : <span>1234-5678-901</span></p>
+						</div>
+						<div class="col-md-4 news-letter-grid">
+							<p class="mail">Email : <a href="mailto:info@example.com">mail@example.com</a></p>
+						</div>
+						<div class="col-md-4 news-letter-grid">
+							<form>
+								<input type="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+								<input type="submit" value="Subscribe">
+							</form>
+						</div>
+						<div class="clearfix"> </div>
+						<div class="copyright">
+						<p>Copyrights © 2016 MTC . Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+					</div>
+					</div>
+				</div>
+				<!-- //news-letter -->
+			</div>
+		</div>
+		<!-- //container -->
+	</div>
+	<!-- //footer -->
+
+	<script defer src="js/jquery.flexslider.js"></script>
+	<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/scriptauto.js"></script>
+	<script type="text/javascript" src="js/scriptauto1.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			SyntaxHighlighter.all();
+			});
+			$(window).load(function(){
+			$('.flexslider').flexslider({
+			animation: "slide",
+			start: function(slider){
+			$('body').removeClass('loading');
+			}
+			});
+		});
+	</script>		
+</body>
+</html>
